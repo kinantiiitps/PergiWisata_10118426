@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base"
+    tools:context=".profile">
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Profile"/>
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/txtProfile"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/foto_profil" />
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imgProfile"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="Kinanti Trimutiara Putri Setiawan"/>
+
+    <TextView
+        android:id="@+id/txtNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtNama"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="10118426"/>
+
+    <TextView
+        android:id="@+id/txtKelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtNim"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="IF10"/>
+
+    <TextView
+        android:id="@+id/txtEMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtKelas"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="kinantrimutiara@gmail.com"/>
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:text="Selanjutnya"
+        android:onClick="pindahMenu"
+        android:background="@drawable/btn_stroke"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/yellow_green"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/bottom_menu" />
+</RelativeLayout>

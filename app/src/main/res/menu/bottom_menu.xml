@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/profileMenu"
+        android:icon="@drawable/user"
+        android:title="Profile" />
+
+    <item android:id="@+id/daftarMenu"
+        android:icon="@drawable/menu"
+        android:title="Wisata Alam" />
+
+    <item android:id="@+id/infoMenu"
+        android:icon="@drawable/infoapp"
+        android:title="Info App" />
+
+</menu>

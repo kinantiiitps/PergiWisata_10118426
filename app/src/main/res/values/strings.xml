@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pergi Wisata</string>
+    <string name="navigation_drawer_open">Navigasi Terbuka</string>
+    <string name="navigation_drawer_close">Navigasi Tertutup</string>
+    <string name="slide_title_1">Slide 1</string>
+    <string name="slide_title_2">Slide 2</string>
+    <string name="slide_title_3">Slide 3</string>
+    <string name="slide_desc_1">Haii kenalin aku aplikasi "Pergi Wisata". Aku disini ada untuk kalian yang ingin berlibur ke tempat wisata di Bandung Raya.</string>
+    <string name="slide_desc_2">Tenang, tidak perlu khawatir akan tersesat karena dalam aplikasi ini sudah tersedia maps lokasi menuju tempat wisata loh.</string>
+    <string name="slide_desc_3">Maka dengan itu, hadirlah aplikasi Pergi Wisata  yang menyediakan informasi terkait tempat wisata terdiri dari deskripsi, tiket masuk, dan details.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
